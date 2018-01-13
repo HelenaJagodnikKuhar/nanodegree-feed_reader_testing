@@ -1,23 +1,23 @@
 # Feed Reader Testing
-My challange was to write tests for a web-based application that reads RSS feeds. I checked functionality of RSS Feed testing, RSS Feed properties, menu default state, and menu hiding/showing.
+My challenge was to write tests for an RSS-feed reader. I've checked the functionality of RSS Feed loading, RSS Feed properties, menu default state, and menu hiding/showing.
 
-I used included [Jasmine](http://jasmine.github.io/) framework for testing JavaScript code.
+I used the included [Jasmine](http://jasmine.github.io/) framework for testing JavaScript code.
 
 ## ./jasmine/spec/feedreader.js
 - URLs and Names properties are defined and not empty
 - Menu is hidden by default
 - Menu changes visibility (display/hidden when clicked); simulate click event
-- LoadFeed function loads a least one feed
-- LoadFeed function changes the feeds content
+- loadFeed() function loads a least one feed
+- loadFeed() function changes the feeds content
 
-[Demo](https://helenajagodnikkuhar.github.io/nanodegree-website_optimization/)
+[Demo](https://helenajagodnikkuhar.github.io/nanodegree-feed_reader_testing/)
 
 ### Getting started
-Clone the GitHub repository and run the index.html file in your browser. Or you can use the [Demo](https://helenajagodnikkuhar.github.io/nanodegree-website_optimization/)
+Clone the GitHub repository and run the index.html file in your browser. Or you can use the [Demo](https://helenajagodnikkuhar.github.io/nanodegree-feed_reader_testing/)
 
 ### Tech
 
-Web-based application that reads RSS feeds uses open source projects to work properly:
+A web-based application that reads RSS feeds uses open source projects to work properly:
 
 * [Jasmine](http://jasmine.github.io/) framework for testing JavaScript
 * [Jquery] - JavaScript library 
